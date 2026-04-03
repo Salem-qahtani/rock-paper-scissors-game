@@ -4,7 +4,7 @@ A browser-based Rock Paper Scissors game built with HTML, CSS, and JavaScript.
 
 ## Live Preview
 
-[Live](https://salem-qahtani.github.io/rock-paper-scissors-game/)
+[View on GitHub Pages](https://salem-qahtani.github.io/rock-paper-scissors-game/)
 
 ## About
 
