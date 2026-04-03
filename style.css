@@ -1,0 +1,79 @@
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+}
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8em;
+}
+#center {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: rgba(206, 206, 206, 0.549);
+}
+#container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 3px 3px 3px;
+  margin-top: 20px;
+  width: 600px;
+}
+#choices {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+.choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 2em;
+  background-color: rgb(8, 131, 255);
+  margin: 10px;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  transition: background-color 0.1s ease;
+}
+.choice:hover {
+  background-color: rgb(63, 158, 253);
+}
+.choice:active {
+  background-color: rgb(108, 180, 251);
+}
+.choice i {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+#button {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+button {
+  font-size: 2em;
+  border-radius: 10px;
+  background-color: rgb(255, 68, 68);
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  transition: background-color 0.1s ease;
+}
+button:hover {
+  background-color: rgb(255, 100, 100);
+}
+button:active {
+  background-color: rgb(254, 141, 141);
+}
+#result {
+  font-size: 5em;
+  margin: 0px;
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Learning</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e422ee9676.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div id="center">
+      <div id="container">
+        <div id="choices">
+          <div class="choice" id="rock">
+            <i class="fa-solid fa-hand-back-fist"></i>
+          </div>
+          <div class="choice" id="paper">
+            <i class="fa-solid fa-hand"></i>
+          </div>
+          <div class="choice" id="scissor">
+            <i class="fa-solid fa-hand-scissors"></i>
+          </div>
+        </div>
+        <div>
+          <h2 id="pChoice">Player Choice:</h2>
+          <h2 id="cChoice">Computer Choice:</h2>
+        </div>
+        <h1 id="result"></h1>
+        <div>
+          <h2 id="pScore">Player Score: 0</h2>
+          <h2 id="cScore">Computer Score: 0</h2>
+        </div>
+        <div id="button">
+          <button is="reset" onclick="reset()">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
